@@ -19,10 +19,7 @@ h1 {
 .side-title {
   font-size:1.2em;
   font-weight: bold;
-  /*position: relative;*/
   float:right;
-  top:-1px;
-  left:76%;
   margin:0px;
   border: 1px solid black;
   width: 25%;
