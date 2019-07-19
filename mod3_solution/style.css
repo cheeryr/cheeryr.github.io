@@ -57,7 +57,7 @@ body {
 	font-weight: bold;
 	margin-bottom: 35px;
 }
-.container #content {
+.column .article  {
   color: #000;
   padding: 30px;
   margin-bottom: 30px;
@@ -68,8 +68,9 @@ body {
   padding-left: 15px;
   border-radius: 6px;
   max-width: 100%;
+  padding: 10px;
 }
-.container #content h1 {
+.container-fluid h4 {
 	font-size: 1.1em;
 	text-align: center;
 	margin-bottom: 10px;
@@ -77,25 +78,16 @@ body {
 	font-weight: bold;
 }
 /*** END OF HOME PAGE ***/
-/********** Large devices only **********/
-@media (min-width: 1200px) {
 
-}
-
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-  /* Header */
-
-}
-
-/********** Small devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  /* Home Page */
-}
 
 /********** Extra small devices only **********/
-@media (max-width: 767px) {
-  /* Header */
+@media (max-width: 576px) {
+
+	.column {
+		padding-right: 40px;
+		padding-left: 40px;
+	}
+}
 
 
 
